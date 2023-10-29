@@ -157,7 +157,7 @@ DROPDOWN
   border-radius: var(--theme-rounded-corners) var(--theme-rounded-corners) 0 0;
   font-weight: 600;
 
-  & + .ant-tabs-tab {
+  &+.ant-tabs-tab {
     margin-left: var(--module-spacing);
   }
 
@@ -236,7 +236,7 @@ th {
   color: var(--theme-color-palette-12);
 }
 
-.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+.ant-menu-submenu:hover>.ant-menu-submenu-title>.ant-menu-submenu-arrow {
   color: var(--theme-color-palette-12);
 }
 
@@ -254,6 +254,6 @@ th {
   }
 }
 
-.ant-collapse > .ant-collapse-item {
+.ant-collapse>.ant-collapse-item {
   background: var(--theme-color-palette-14);
 }
